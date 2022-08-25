@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Virgil";
+    font-style: normal;
+    font-weight: 400;
+    font-display: optional;
+    src: url("@/assets/fonts/Virgil.woff2") format("woff2");
+  }
+}
